@@ -4,7 +4,7 @@ import { Web3Modal } from '@web3modal/html';
 
 import { writable } from 'svelte/store';
 
-const projectId = '';
+const projectId = '41abc3fbc944200b0247a19bd44481f4';
 const chains = [mainnet];
 
 const { provider } = configureChains(chains, [w3mProvider({ projectId })]);
